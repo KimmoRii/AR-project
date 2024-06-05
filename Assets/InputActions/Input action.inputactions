@@ -1,0 +1,76 @@
+{
+    "name": "Input action",
+    "maps": [
+        {
+            "name": "TouchInput",
+            "id": "aa877032-d465-4ab8-8c69-8a63dcf8875e",
+            "actions": [
+                {
+                    "name": "SingleTap",
+                    "type": "Button",
+                    "id": "20d0f359-a2ed-4574-95db-f5fc3a6898fd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DoubleTap",
+                    "type": "Button",
+                    "id": "59699c34-0c9e-430d-9aa7-475cf420cf24",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "MultiTap",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "c29821c2-792e-47f9-8622-8a20bb46456f",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SingleTap",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "79ac6401-827a-436a-abcf-4b0977512b60",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SingleTap",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "ffe0091d-b6e5-4b69-a8c2-795f413455c4",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SingleTap",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "529c5874-f0bb-4fb3-bd6d-01ad722f8e1e",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoubleTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
